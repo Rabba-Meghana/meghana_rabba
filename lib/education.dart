@@ -53,64 +53,56 @@ SizedBox(width: screenWidth*0.03),
                                 Flexible(
                                   child: Row(
                                     children: [SizedBox(width: screenWidth*0.14),
-                                      Flexible(
-                                        child: Text(textAlign:TextAlign.center,
-                                          'Chicago ,Illinois ,United States',
-                                                  style: GoogleFonts.poiretOne(
-                                                              fontSize: min(screenWidth,screenHeight) * 0.03,
-                                                              color: Colors.white.withOpacity(0.9),
-                                                              height: 1.5,
-                                                            ),
+                                      Text(textAlign:TextAlign.center,
+                                        'Chicago ,Illinois ,United States',
+                                                style: GoogleFonts.poiretOne(
+                                                            fontSize: min(screenWidth,screenHeight) * 0.03,
+                                                            color: Colors.white.withOpacity(0.9),
+                                                            height: 1.5,
                                                           ),
-                                      ),
+                                                        ),
                                     ],
                                   ),
                                 ),
                                 Flexible(
                                   child: Row(
                                     children: [SizedBox(width: screenWidth*0.14),
-                                      Flexible(
-                                        child: Text(textAlign:TextAlign.center,
-                                          "Master's Degree : Computer Science",
-                                                  style: GoogleFonts.poiretOne(
-                                                              fontSize: min(screenWidth,screenHeight) * 0.03,
-                                                              color: Colors.white.withOpacity(0.9),
-                                                              height: 1.5,
-                                                            ),
+                                      Text(textAlign:TextAlign.center,
+                                        "Master's Degree : Computer Science",
+                                                style: GoogleFonts.poiretOne(
+                                                            fontSize: min(screenWidth,screenHeight) * 0.03,
+                                                            color: Colors.white.withOpacity(0.9),
+                                                            height: 1.5,
                                                           ),
-                                      ),
+                                                        ),
                                     ],
                                   ),
                                 ),
                                 Flexible(
                                   child: Row(
                                     children: [SizedBox(width: screenWidth*0.14),
-                                      Flexible(
-                                        child: Text(textAlign:TextAlign.center,
-                                          'GPA :4.0',
-                                                  style: GoogleFonts.poiretOne(
-                                                              fontSize: min(screenWidth,screenHeight) * 0.03,
-                                                              color: Colors.white.withOpacity(0.9),
-                                                              height: 1.5,
-                                                            ),
+                                      Text(textAlign:TextAlign.center,
+                                        'GPA :4.0',
+                                                style: GoogleFonts.poiretOne(
+                                                            fontSize: min(screenWidth,screenHeight) * 0.03,
+                                                            color: Colors.white.withOpacity(0.9),
+                                                            height: 1.5,
                                                           ),
-                                      ),
+                                                        ),
                                     ],
                                   ),
                                 ),
                                 Flexible(
                                   child: Row(
                                     children: [SizedBox(width: screenWidth*0.14),
-                                      Flexible(
-                                        child: Text(textAlign:TextAlign.center,
-                                          '2024-2026',
-                                                  style: GoogleFonts.poiretOne(
-                                                              fontSize: min(screenWidth,screenHeight) * 0.03,
-                                                              color: Colors.white.withOpacity(0.9),
-                                                              height: 1.5,
-                                                            ),
+                                      Text(textAlign:TextAlign.center,
+                                        '2024-2026',
+                                                style: GoogleFonts.poiretOne(
+                                                            fontSize: min(screenWidth,screenHeight) * 0.03,
+                                                            color: Colors.white.withOpacity(0.9),
+                                                            height: 1.5,
                                                           ),
-                                      ),
+                                                        ),
                                     ],
                                   ),
                                 ),

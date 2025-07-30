@@ -293,18 +293,16 @@ class InternshipCard extends StatelessWidget {
         child: Flexible(
           child: Column(
             children: [
-              Flexible(
-                child: ClipRRect(
-                  borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(screenSize.width * 0.02),
-                    topRight: Radius.circular(screenSize.width * 0.02),
-                  ),
-                  child: Image.asset(
-                    companyLogo,
-                    height: screenSize.height * 0.4,
-                    width: double.infinity,
-                    fit: BoxFit.cover,
-                  ),
+              ClipRRect(
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(screenSize.width * 0.02),
+                  topRight: Radius.circular(screenSize.width * 0.02),
+                ),
+                child: Image.asset(
+                  companyLogo,
+                  height: screenSize.height * 0.4,
+                  width: double.infinity,
+                  fit: BoxFit.cover,
                 ),
               ),
               Flexible(
@@ -323,15 +321,7 @@ class InternshipCard extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Flexible(
-                        child: Text(
-                          completionDate,
-                          style: GoogleFonts.exo2(
-                            fontSize: min(screenSize.width, screenSize.height) * 0.015,
-                            color: Colors.white.withOpacity(0.7),
-                          ),
-                        ),
-                      ),
+                      
                     ],
                   ),
                 ),
